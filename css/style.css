@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    ;
 
 }
-body section{
+
+body section {
     padding-top: 53px;
     padding-bottom: 55px;
 
@@ -12,8 +15,15 @@ body section{
 
 
 /*header*/
+header {
+    background-image: url("../img/jumbo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1158px;
+
+}
+
 #intestazione {
-    background-color: #add8e6;
     display: flex;
     justify-content: center;
 }
@@ -25,13 +35,6 @@ nav {
     width: 70%;
 }
 
-#intestazione nav>div {
-    background-color: #daa520;
-    border: 2px dashed #000000;
-    padding: 15px 13px;
-
-}
-
 .logo {
     flex-grow: 1;
     text-align: left;
@@ -41,13 +44,57 @@ nav {
 .link {
     flex-grow: 2;
     text-align: center;
-
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: #ffffff;
 }
 
 .login {
     flex-grow: 1;
     text-align: right;
 }
+
+.btn {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    padding-top: 200px;
+}
+
+.mac {
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: large;
+    margin-right: 25px;
+
+}
+
+.browser {
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: large;
+    background-color: #23272a;
+    color: #ffffff;
+    margin-left: 25px;
+
+}
+
+/*font paragrafi*/
+p {
+    font-size: 25px;
+}
+
+
+
 
 /*main*/
 
@@ -59,9 +106,62 @@ nav {
 
 }
 
+.introduzione {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*footer*/
+
 
 .tabella {
     display: flex;
@@ -88,6 +188,7 @@ nav {
 }
 
 /* footer menu finale*/
+
 
 .finale {
     background-color: #23272a;
@@ -125,12 +226,13 @@ nav {
 
 
 /*da rimuovere dopo sviluppo*/
-.rosa{
-    border: 2px dashed #000000;
+
+.introduzione {
+
     height: 399px;
     width: 911px;
-
 }
+
 
 .content {
     border: 2px dashed #000000;
@@ -168,12 +270,13 @@ nav {
     border: 2px dashed #000000;
 }
 
-.green{
+.green {
     background-color: #228b22;
     height: 900px;
     width: 1200px;
     border: 2px dashed #000000;
 }
+
 
 
 
@@ -202,8 +305,4 @@ nav {
 .bg-black {
     background-color: #23272a;
     padding-bottom: 0;
-}
-
-.bg-blue>div {
-    background-color: #ee82ee;
 }
