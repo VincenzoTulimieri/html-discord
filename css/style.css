@@ -98,7 +98,7 @@ p {
 
 /*main*/
 
-/*container*/
+/*div conteiner e interni*/
 .container {
     margin: 0 auto;
     display: flex;
@@ -117,25 +117,40 @@ p {
 }
 
 
+.content-two h1{
+font-size: 55px;
+margin-bottom: 50px;
+}
 
+.content-two p{
+    margin-top: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container.fine-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.titolo-fine-main{
+    text-align: center;
+}
+.titolo-fine-main h1{
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+.link-fine-main{
+    background-image: url(../img/stars.svg);
+    text-align: center;
+    margin-top: 40px; 
+    background-repeat: no-repeat;
+}
+.link-fine-main h2{
+    margin-bottom: 50px; 
+}
+.purple{
+    background-color: #7288da;
+}
 
 
 
@@ -228,26 +243,29 @@ p {
 /*da rimuovere dopo sviluppo*/
 
 .introduzione {
-
     height: 399px;
     width: 911px;
 }
 
 
 .content {
-    border: 2px dashed #000000;
+    
     height: 497px;
     width: 720px;
-    background-color: #1e90ff;
+    
 }
 
 
 .content-two {
-    border: 2px dashed #000000;
     height: 497px;
     width: 480px;
-    background-color: #ffc0cb;
+    
+}
 
+.fine-main {
+    height: 900px;
+    width: 1200px;
+    
 }
 
 .contatti {
@@ -270,12 +288,7 @@ p {
     border: 2px dashed #000000;
 }
 
-.green {
-    background-color: #228b22;
-    height: 900px;
-    width: 1200px;
-    border: 2px dashed #000000;
-}
+
 
 
 
@@ -295,7 +308,7 @@ p {
 }
 
 .bg-grey {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .bg-grey-1 {
