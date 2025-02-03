@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body section{
+    padding-top: 53px;
+    padding-bottom: 55px;
+
+}
+
+
+/*header*/
+#intestazione {
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+}
+
+#intestazione nav>div {
+    background-color: #daa520;
+    border: 2px dashed #000000;
+    padding: 15px 13px;
+
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: left;
+
+}
+
+.link {
+    flex-grow: 2;
+    text-align: center;
+
+}
+
+.login {
+    flex-grow: 1;
+    text-align: right;
+}
+
+/*main*/
+
+/*container*/
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/*footer*/
+
+.tabella {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.social {
+    background-color: #f08080;
+    flex-grow: 1;
+}
+
+.liste {
+    display: flex;
+    flex-grow: 2;
+    background-color: #20b2aa;
+}
+
+.liste>div {
+    border: 2px dashed #ffffff;
+    flex-grow: 1;
+}
+
+/* footer menu finale*/
+
+.finale {
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    margin-top: 0px;
+    align-items: flex-end;
+    border-top: 1px solid #d3d3d3;
+    padding-bottom: 0;
+}
+
+.menu-finale {
+    display: flex;
+    background-color: #7fffd4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-2 {
+    background-color: #ffb6c1;
+    text-align: center;
+    font-size: 25px;
+    padding: 3px 7px;
+}
+
+.bottone {
+    background-color: #ffb6c1;
+    text-align: center;
+    font-size: 25px;
+    padding: 3px 7px;
+}
+
+
+
+
+/*da rimuovere dopo sviluppo*/
+.rosa{
+    border: 2px dashed #000000;
+    height: 399px;
+    width: 911px;
+
+}
+
+.content {
+    border: 2px dashed #000000;
+    height: 497px;
+    width: 720px;
+    background-color: #1e90ff;
+}
+
+
+.content-two {
+    border: 2px dashed #000000;
+    height: 497px;
+    width: 480px;
+    background-color: #ffc0cb;
+
+}
+
+.contatti {
+    height: 578px;
+    border: 2px dashed #000000;
+}
+
+
+.menu-finale {
+    width: 1200px;
+    height: 80px;
+}
+
+.logo-2 {
+    border: 2px dashed #000000;
+
+}
+
+.bottone {
+    border: 2px dashed #000000;
+}
+
+.green{
+    background-color: #228b22;
+    height: 900px;
+    width: 1200px;
+    border: 2px dashed #000000;
+}
+
+
+
+
+
+
+
+
+/*utilities classes*/
+.bg-blue {
+    background-color: #00008b;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-grey {
+    background-color: #d3d3d3;
+}
+
+.bg-grey-1 {
+    background-color: #d3d3d3;
+}
+
+.bg-black {
+    background-color: #23272a;
+    padding-bottom: 0;
+}
+
+.bg-blue>div {
+    background-color: #ee82ee;
+}
